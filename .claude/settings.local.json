@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"console.log\\('node works'\\)\")",
+      "Bash(node \"C:/Users/josep/Documents/GitHub/tradingview-mcp-jackson/src/server.js\" --help)",
+      "Read(//c/Users/josep/.claude/**)",
+      "Bash(curl -s http://localhost:9222/json/version)",
+      "Bash(timeout 5 node src/server.js)",
+      "Bash(node src/server.js --help)",
+      "Bash(echo \"EXIT: $?\")",
+      "Bash(tasklist)",
+      "Bash(node -e \"import\\('./src/server.js'\\).catch\\(e => console.error\\(e.message\\)\\)\")",
+      "mcp__tradingview-mcp__tv_health_check",
+      "mcp__tradingview-mcp__chart_get_state",
+      "mcp__tradingview-mcp__capture_screenshot",
+      "mcp__tradingview-mcp__replay_start",
+      "mcp__tradingview-mcp__data_get_pine_tables",
+      "mcp__tradingview-mcp__data_get_pine_labels",
+      "mcp__tradingview-mcp__data_get_pine_lines",
+      "mcp__tradingview-mcp__data_get_study_values",
+      "mcp__tradingview-mcp__replay_autoplay",
+      "mcp__tradingview-mcp__replay_status",
+      "mcp__tradingview-mcp__data_get_strategy_results",
+      "mcp__tradingview-mcp__ui_open_panel",
+      "Bash(npm install:*)"
+    ]
+  }
+}
